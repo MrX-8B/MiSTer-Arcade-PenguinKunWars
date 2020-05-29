@@ -1,0 +1,18 @@
+
+set_global_assignment -name QIP_FILE rtl/T80/T80.qip
+set_global_assignment -name VHDL_FILE rtl/YM2149_linmix_sep_mod.vhd
+
+set_global_assignment -name VERILOG_FILE rtl/FPGA_PKWARS.v
+set_global_assignment -name VERILOG_FILE rtl/PKWARS_CLKGEN.v
+set_global_assignment -name VERILOG_FILE rtl/PKWARS_HVGEN.v
+set_global_assignment -name VERILOG_FILE rtl/PKWARS_ROMARB.v
+set_global_assignment -name VERILOG_FILE rtl/PKWARS_SND.v
+set_global_assignment -name VERILOG_FILE rtl/PKWARS_SPRITE.v
+set_global_assignment -name VERILOG_FILE rtl/PKWARS_VIDEO.v
+set_global_assignment -name VERILOG_FILE rtl/mems.v
+set_global_assignment -name VERILOG_FILE rtl/z80ip.v
+set_global_assignment -name QIP_FILE rtl/DPRAM1024.qip
+
+set_global_assignment -name SYSTEMVERILOG_FILE Arcade-PenguinKunWars.sv
+set_global_assignment -name SDC_FILE Arcade-PenguinKunWars.sdc
+
