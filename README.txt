@@ -24,8 +24,7 @@
 --   F2          : Coin + Start 2 players
 --   F1          : Coin + Start 1 player
 --   UP,DOWN,LEFT,RIGHT arrows : Movements
---   SPACE       : Shot
---   CTRL        : Jump
+--   SPACE       : Throw
 --
 -- MAME/IPAC/JPAC Style Keyboard inputs:
 --   5           : Coin 1
@@ -33,8 +32,7 @@
 --   1           : Start 1 Player
 --   2           : Start 2 Players
 --   R,F,D,G     : Player 2 Movements
---   A           : Player 2 Shot
---   S           : Player 2 Jump
+--   A           : Player 2 Throw
 --
 -- Joystick support.
 --
