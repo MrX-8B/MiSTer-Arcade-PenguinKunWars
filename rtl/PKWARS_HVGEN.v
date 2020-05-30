@@ -17,14 +17,6 @@ module PKWARS_HVGEN
 	output reg			VSYN = 1
 );
 
-/*
-		311: begin HSYN <= 0; hcnt <= hcnt+1'd1; end
-		342: begin HSYN <= 1; hcnt <= 471;       end
-
-		235: begin VSYN <= 0; vcnt <= vcnt+1'd1; end
-		242: begin VSYN <= 1; vcnt <= 495;       end
-*/
-
 reg [8:0] hcnt = 0;
 reg [8:0] vcnt = 0;
 
