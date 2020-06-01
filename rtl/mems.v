@@ -103,35 +103,3 @@ always @( posedge CL1 ) begin
 end
 
 endmodule
-
-/*
-module DPRAM200
-(
-	input					CL0,
-	input	 [8:0]		AD0,
-	input					WE0,
-	input  [7:0]		WD0,
-	output reg [7:0]	RD0,
-	
-	input					CL1,
-	input	 [8:0]		AD1,
-	input					WE1,
-	input  [7:0]		WD1,
-	output reg [7:0]	RD1
-);
-
-reg [7:0] core[0:511];
-
-always @( posedge CL0 ) begin
-	if (WE0) core[AD0] <= WD0;
-	RD0 <= core[AD0];
-end
-
-always @( posedge CL1 ) begin
-	if (WE1) core[AD1] <= WD1;
-	RD1 <= core[AD1];
-end
-
-endmodule
-*/
-
