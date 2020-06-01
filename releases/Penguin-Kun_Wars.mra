@@ -14,7 +14,7 @@
 		<dip bits="4,5" name="Difficulty" ids="Hardest,Easy,Hard,Medium"></dip>
 		<dip bits="7" name="Free Play" ids="On,Off"></dip>
 	</switches>
-	<rom index="0" zip="pkunwar.zip" md5="none">
+	<rom index="0" zip="pkunwar.zip" md5="ac9b22ee3d952f241e278c0f1e238ed4">
 		<part crc="428d3b92" name="pkwar.01y"/>
 		<part crc="ce1da7bc" name="pkwar.02y"/>
 		<part crc="63204400" name="pkwar.03y"/>
